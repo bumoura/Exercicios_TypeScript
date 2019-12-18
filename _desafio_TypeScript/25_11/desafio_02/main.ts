@@ -1,0 +1,11 @@
+import { soma } from './soma';
+import { divisao } from './divisao';
+import { multiplicar } from './multiplicar';
+import { subtrair } from './subtrair';
+import { coletaDados } from './dados';
+let dados = coletaDados(3);
+dados = soma(dados, 5);
+dados = subtrair(dados, 2);
+dados = multiplicar(dados, 3);
+dados = divisao(dados, 2);
+console.log(dados);
